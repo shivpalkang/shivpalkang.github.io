@@ -298,7 +298,7 @@
   width:320px;
   text-align:left;
   font-size:20px;
-  color:#fff !important;
+  color:#000000 !important; /* #fff */
   opacity:0.25;
   transition:opacity 0.6s;
 
@@ -318,6 +318,7 @@
 
 .row:hover .browse-text {
   opacity:1.0;
+  color:#fff !important; /* delete if don't want to change color on hover */
 }
 
 .browse .row-container {
