@@ -282,7 +282,7 @@
 }
 
 .browse .browse-text a {
-  color:#fff !important;
+  color:#000000 !important; /* #fff */
 }
 
 .browse .browse-text {
@@ -299,8 +299,9 @@
   text-align:left;
   font-size:20px;
   color:#000000 !important; /* #fff */
-  opacity:0.25;
+  opacity:0.5;
   transition:opacity 0.6s;
+  transition:color 0.6s;
 
   @media only screen and (max-width: 1000px) {
     font-size:16px;
@@ -317,6 +318,11 @@
 }
 
 .row:hover .browse-text {
+  opacity:1.0;
+  color:#fff !important; /* delete if don't want to change color on hover */
+}
+
+.row:hover .browse-text a {
   opacity:1.0;
   color:#fff !important; /* delete if don't want to change color on hover */
 }
