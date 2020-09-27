@@ -282,7 +282,7 @@
 }
 
 .browse .browse-text a {
-  color:#000000 !important; /* #fff */
+  color:#fff !important; /* #fff */
 }
 
 .browse .browse-text {
@@ -322,10 +322,6 @@
   color:#fff !important; /* delete if don't want to change color on hover */
 }
 
-.row:hover .browse-text a {
-  opacity:1.0;
-  color:#fff !important; /* delete if don't want to change color on hover */
-}
 
 .browse .row-container {
   height:320px;
@@ -365,7 +361,7 @@
 }
 
 .browse .row1:hover {
-  background-color:desaturate(darken(#b2dfdb, 60%), 50%);
+  background-color:desaturate(darken(#b2dfdb, 40%), 30%);
 }
 
 .browse .row2 {
@@ -373,7 +369,7 @@
 }
 
 .browse .row2:hover {
-  background-color:desaturate(darken(#c8e6c9, 60%), 50%);
+  background-color:desaturate(darken(#c8e6c9, 40%), 30%);
 }
 
 .browse .row3 {
