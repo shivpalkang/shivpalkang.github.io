@@ -317,6 +317,14 @@
   }
 }
 
+h2 {
+  color:#000000 !important;
+}
+
+h2:hover {
+  color:#fff !important;
+}
+
 .row:hover .browse-text {
   opacity:1.0;
   color:#fff !important; /* delete if don't want to change color on hover */
