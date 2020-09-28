@@ -332,18 +332,18 @@
 
 
 .browse .row-container {
-  height:75vh;
+  height:66vh;
   @media only screen and (max-width: 1000px) {
-    height:33vh;
+    height:200px;
   }
 
   @media only screen and (max-width: 600px) {
-    height:25vh;
+    height:160px;
   }
 }
 
 .browse .row {
-  height:75vh; /* 320px default*/
+  height:66vh; /* 320px default*/
   width:100%;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
   position:relative;
@@ -351,17 +351,17 @@
   transition:background-color 0.25s;
 
   @media only screen and (max-width: 1000px) {
-    height:33vh;
+    height:200px;
   }
 
   @media only screen and (max-width: 600px) {
-    height:25vh;
+    height:160px;
   }
 }
 
 .browse .row.sticky {
-  position: relative;
-  top:0px;
+  position: fixed;
+  top:0;
 }
 
 .browse .row1 {
