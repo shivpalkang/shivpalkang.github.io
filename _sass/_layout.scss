@@ -332,7 +332,7 @@
 
 
 .browse .row-container {
-  height:500px;
+  height:100vh;
   @media only screen and (max-width: 1000px) {
     height:300px;
   }
@@ -343,7 +343,7 @@
 }
 
 .browse .row {
-  height:500px; /* 320px default*/
+  height:100vh; /* 320px default*/
   width:100%;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
   position:relative;
@@ -428,9 +428,7 @@
   background-color:desaturate(darken(#cccccc, 60%), 50%);
 }
 
-.browse .row.unstick {
-  
-}
+.browse .row.unstick();
 
 .browse h2 {
   text-decoration:none;
