@@ -428,6 +428,10 @@
   background-color:desaturate(darken(#cccccc, 60%), 50%);
 }
 
+.browse .row8.sticky {
+  position: relative;
+  top: -500px;
+}
 
 .browse h2 {
   text-decoration:none;
