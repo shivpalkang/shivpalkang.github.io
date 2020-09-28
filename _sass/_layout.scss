@@ -333,11 +333,11 @@
 .browse .row-container {
   height:320px;
   @media only screen and (max-width: 1000px) {
-    height:200px;
+    height:300px;
   }
 
   @media only screen and (max-width: 600px) {
-    height:100px;
+    height:200px;
   }
 }
 
@@ -350,11 +350,11 @@
   transition:background-color 0.25s;
 
   @media only screen and (max-width: 1000px) {
-    height:200px;
+    height:300px;
   }
 
   @media only screen and (max-width: 600px) {
-    height:100px;
+    height:200px;
   }
 }
 
