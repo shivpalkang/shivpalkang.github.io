@@ -298,12 +298,12 @@
   width:320px;
   text-align:left;
   font-size:20px;
-  color:#000000 !important; /* #fff */
+  color:#fff !important; /* #fff */
   opacity:0;
   transition:opacity 0.6s;
   transition:color 0.6s;
   h2 {
-    color:#000000 !important;
+    color:#fff !important;
     transition:color 0.6s;
   }
 
@@ -325,9 +325,9 @@
 
 .row:hover .browse-text {
   opacity:1.0;
-  color:#fff !important; /* delete if don't want to change color on hover */
+  color:#000000 !important; /* delete if don't want to change color on hover */
   h2 {
-    color:#fff !important;
+    color:#000000 !important;
   }
 }
 
@@ -339,7 +339,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    height:185px;
+    height:180px;
   }
 }
 
@@ -356,7 +356,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    height:185px;
+    height:180px;
   }
 }
 
@@ -366,67 +366,68 @@
 }
 
 .browse .row1 {
-  background-color:#b2dfdb;
-}
-
-.browse .row1:hover {
   background-color:desaturate(darken(#b2dfdb, 40%), 30%);
 }
 
+.browse .row1:hover {
+  background-color:#b2dfdb;
+}
+
 .browse .row2 {
-  background-color:#c8e6c9;
+  background-color:desaturate(darken(#c8e6c9, 40%), 30%);
+
 }
 
 .browse .row2:hover {
-  background-color:desaturate(darken(#c8e6c9, 40%), 30%);
+  background-color:#c8e6c9;
 }
 
 .browse .row3 {
-  background-color:#dcedc8;
-}
-
-.browse .row3:hover {
   background-color:desaturate(darken(#dcedc8, 60%), 50%);
 }
 
-.browse .row4 {
-  background-color:#f0f4c3;
+.browse .row3:hover {
+  background-color:#dcedc8;
 }
 
-.browse .row4:hover {
+.browse .row4 {
   background-color:desaturate(darken(#f0f4c3, 60%), 50%);
 }
 
-.browse .row5 {
-  background-color:#fff9c4;
+.browse .row4:hover {
+  background-color:#f0f4c3;
 }
 
-.browse .row5:hover {
+.browse .row5 {
   background-color:desaturate(darken(#fff9c4, 60%), 50%);
 }
 
-.browse .row6 {
-  background-color:#ffecb3;
+.browse .row5:hover {
+  background-color:#fff9c4;
 }
 
-.browse .row6:hover {
+.browse .row6 {
   background-color:desaturate(darken(#ffecb3, 60%), 50%);
 }
 
+.browse .row6:hover {
+  background-color:#ffecb3;
+}
+
 .browse .row7 {
-  background-color:#cccccc;
+  background-color:desaturate(darken(#cccccc, 60%), 50%);
 }
 
 .browse .row7:hover {
-  background-color:desaturate(darken(#cccccc, 60%), 50%);
-}
-
-.browse .row8 {
   background-color:#cccccc;
 }
 
-.browse .row8:hover {
+.browse .row8 {
   background-color:desaturate(darken(#cccccc, 60%), 50%);
+}
+
+.browse .row8:hover {
+  background-color:#cccccc;
 }
 
 .browse h2 {
