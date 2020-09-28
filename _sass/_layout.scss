@@ -332,7 +332,7 @@
 
 
 .browse .row-container {
-  height:50vh;
+  height:75vh;
   @media only screen and (max-width: 1000px) {
     height:33vh;
   }
@@ -343,7 +343,7 @@
 }
 
 .browse .row {
-  height:50vh; /* 320px default*/
+  height:75vh; /* 320px default*/
   width:100%;
   box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
   position:relative;
