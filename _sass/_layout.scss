@@ -121,6 +121,7 @@
 .footer-heading {
   font-size: 18px;
   margin-bottom: $spacing-unit / 2;
+  z-index:5;
 }
 
 .contact-list,
@@ -147,6 +148,7 @@
 .footer-col-1 {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
+  z-index:5;
 }
 
 .footer-col-2 {
@@ -154,6 +156,7 @@
   text-align:right;
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
+  z-index:5;
 }
 
 
