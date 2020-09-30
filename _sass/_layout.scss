@@ -37,11 +37,12 @@
 }
 
 .site-title {
+  display: grid;
   font-size: 28px;
   line-height: 80px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
+  place-items: center;
   color:#fff !important;
 
   &,
