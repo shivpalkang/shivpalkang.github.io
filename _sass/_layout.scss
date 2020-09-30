@@ -52,6 +52,11 @@
   }
 }
 
+.site-dia {
+  display: grid;
+  place-items: center;
+}
+
 .site-nav {
   float: right;
   line-height: 80px;
