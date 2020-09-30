@@ -122,6 +122,7 @@
 .footer-heading {
   font-size: 18px;
   margin-bottom: $spacing-unit / 2;
+  position:relative;
   z-index:5;
 }
 
@@ -151,6 +152,7 @@
 .footer-col-1 {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
+  position:relative;
   z-index:5;
 }
 
@@ -159,6 +161,7 @@
   text-align:right;
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
+  position:relative;
   z-index:5;
 }
 
