@@ -37,13 +37,14 @@
 }
 
 .site-title {
-  height: 80vh;
+  height: 50vh;
   display: grid;
   font-size: 28px;
   line-height: 80px;
   letter-spacing: -1px;
   margin: 0;
-  place-items: center;
+  align-items: end;
+  justify-items: center;
   color:#fff !important;
 
   &,
