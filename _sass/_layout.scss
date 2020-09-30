@@ -134,12 +134,14 @@
   color: $grey-color;
   margin-left: 0;
   @extend %clearfix;
+  z-index:5;
 }
 
 .footer-col {
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+  z-index:5;
 }
 
 .footer-col-1 {
