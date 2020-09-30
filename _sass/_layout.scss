@@ -115,6 +115,7 @@
 .site-footer {
   box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
   padding: $spacing-unit 0;
+  position:relative;
   z-index:5;
 }
 
@@ -135,6 +136,7 @@
   color: $grey-color;
   margin-left: 0;
   @extend %clearfix;
+  position:relative;
   z-index:5;
 }
 
@@ -142,6 +144,7 @@
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+  position:relative;
   z-index:5;
 }
 
