@@ -52,7 +52,14 @@
   }
 }
 
+.site-paren {
+  width: 70vw;
+  display: grid;
+  place-items: center;
+}
+
 .site-dia {
+  width: 80vw;
   display: grid;
   place-items: center;
 }
