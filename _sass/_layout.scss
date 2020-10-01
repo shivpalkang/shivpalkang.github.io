@@ -326,13 +326,13 @@
   padding:0;
   position:absolute;
   vertical-align:middle;
-  padding-top:50px;
+  padding-top:60px;
   margin-right:5%;
   right:0;
   top:0;
   width:320px;
   text-align:left;
-  font-size:20px;
+  font-size:24px;
   color:#fff !important; /* #fff */
   opacity:0;
   transition:opacity 0.6s;
@@ -343,14 +343,14 @@
   }
 
   @media only screen and (max-width: 1000px) {
-    font-size:16px;
+    font-size:20px;
     padding-top:20px;
     width:240px;
     opacity:1;
   }
 
   @media only screen and (max-width: 600px) {
-    font-size:10px;
+    font-size:14px;
     padding-top:5px;
     width:160px;
     margin-right:5px;
