@@ -400,6 +400,14 @@
   top:0;
 }
 
+.browse .row9 {
+  background-color:desaturate(darken(#b2ebf2, 60%), 50%);
+}
+
+.browse .row9:hover {
+  background-color:#b2ebf2;
+}
+
 .browse .row1 {
   background-color:desaturate(darken(#b2dfdb, 40%), 30%);
 }
