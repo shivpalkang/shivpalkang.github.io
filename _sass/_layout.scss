@@ -154,6 +154,9 @@
 
 .footer-heading {
   font-size: 18px;
+  @media only screen and (max-width: 1000px) {
+    font-size:16px;
+  }
   margin-bottom: $spacing-unit / 2;
   position:relative;
   z-index:5;
@@ -163,6 +166,9 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  @media only screen and (max-width: 1000px) {
+    font-size:12px;
+  }
 }
 
 .footer-col-wrapper {
