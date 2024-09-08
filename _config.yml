@@ -5,9 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Shivpal Singh Kang - personal website
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://shivpal.in" # the base hostname & protocol for your site
-#twitter_username: shivpalkang
-#github_username:  shivpalkang
-#vimeo_username:   shivpalkang
+insta_username: elevatormusic_ssk
+youtube_username: @ShivpalKang
+#github_username:   shivpalkang
 
 # Build settings
 markdown: kramdown
