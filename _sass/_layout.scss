@@ -400,77 +400,101 @@
   top:0;
 }
 
+.browse .row12 {
+  background-color:desaturate(darken(#031B2D, 80%), 70%);
+}
+
+.browse .row12:hover {
+  background-color:#031B2D;
+}
+
+.browse .row11 {
+  background-color:desaturate(darken(#4A3921, 80%), 70%);
+}
+
+.browse .row11:hover {
+  background-color:#4A3921;
+}
+
+.browse .row10 {
+  background-color:desaturate(darken(#4A3921, 80%), 70%);
+}
+
+.browse .row10:hover {
+  background-color:#4A3921;
+}
+
 .browse .row9 {
-  background-color:desaturate(darken(#b2ebf2, 80%), 70%);
+  background-color:desaturate(darken(#321E14, 80%), 70%);
 }
 
 .browse .row9:hover {
-  background-color:#cccccc;
-}
-
-.browse .row1 {
-  background-color:desaturate(darken(#b2dfdb, 40%), 30%);
-}
-
-.browse .row1:hover {
-  background-color:#b2dfdb;
-}
-
-.browse .row2 {
-  background-color:desaturate(darken(#c8e6c9, 40%), 30%);
-
-}
-
-.browse .row2:hover {
-  background-color:#c8e6c9;
-}
-
-.browse .row3 {
-  background-color:desaturate(darken(#dcedc8, 40%), 30%);
-}
-
-.browse .row3:hover {
-  background-color:#dcedc8;
-}
-
-.browse .row4 {
-  background-color:desaturate(darken(#c5e1a5, 40%), 30%);
-}
-
-.browse .row4:hover {
-  background-color:#c5e1a5;
-}
-
-.browse .row5 {
-  background-color:desaturate(darken(#fff9c4, 50%), 60%);
-}
-
-.browse .row5:hover {
-  background-color:#fff9c4;
-}
-
-.browse .row6 {
-  background-color:desaturate(darken(#ffecb3, 40%), 50%);
-}
-
-.browse .row6:hover {
-  background-color:#ffecb3;
-}
-
-.browse .row7 {
-  background-color:desaturate(darken(#cccccc, 60%), 50%);
-}
-
-.browse .row7:hover {
-  background-color:#cccccc;
+  background-color:#321E14;
 }
 
 .browse .row8 {
-  background-color:desaturate(darken(#cccccc, 60%), 50%);
+  background-color:desaturate(darken(#292221, 40%), 30%);
 }
 
 .browse .row8:hover {
-  background-color:#cccccc;
+  background-color:#292221;
+}
+
+.browse .row7 {
+  background-color:desaturate(darken(#1C1E1B, 40%), 30%);
+
+}
+
+.browse .row7:hover {
+  background-color:#1C1E1B;
+}
+
+.browse .row6 {
+  background-color:desaturate(darken(#4C6764, 40%), 30%);
+}
+
+.browse .row6:hover {
+  background-color:#4C6764;
+}
+
+.browse .row5 {
+  background-color:desaturate(darken(#1A1822, 40%), 30%);
+}
+
+.browse .row5:hover {
+  background-color:#1A1822;
+}
+
+.browse .row4 {
+  background-color:desaturate(darken(#202020, 50%), 60%);
+}
+
+.browse .row4:hover {
+  background-color:#202020;
+}
+
+.browse .row3 {
+  background-color:desaturate(darken(#6E6A4F, 40%), 50%);
+}
+
+.browse .row3:hover {
+  background-color:#6E6A4F;
+}
+
+.browse .row2 {
+  background-color:desaturate(darken(#685B4D, 60%), 50%);
+}
+
+.browse .row2:hover {
+  background-color:#685B4D;
+}
+
+.browse .row1 {
+  background-color:desaturate(darken(#D0B197, 60%), 50%);
+}
+
+.browse .row1:hover {
+  background-color:#D0B197;
 }
 
 .browse h2 {
