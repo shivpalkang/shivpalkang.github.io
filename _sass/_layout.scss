@@ -323,7 +323,7 @@
 }
 
 .browse .browse-text a {
-  color:#fff !important; /* #fff */
+  color:#000000 !important; /* #fff */
 }
 
 .browse .browse-text {
@@ -338,8 +338,8 @@
   top:0;
   width:320px;
   text-align:left;
-  font-size:24px;
-  color:#fff !important; /* #fff */
+  font-size:16px;
+  color:#000000 !important; /* #fff */
   opacity:0;
   transition:opacity 0.6s;
   transition:color 0.6s;
