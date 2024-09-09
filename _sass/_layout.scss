@@ -172,7 +172,7 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
+  font-size: 16px;
   color: $grey-color;
   margin-left: 0;
   @extend %clearfix;
@@ -262,7 +262,7 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    font-size: 32px;
+    font-size: 28px;
 
     @include media-query($on-laptop) {
       font-size: 28px;
@@ -344,7 +344,7 @@
   transition:opacity 0.6s;
   transition:color 0.6s;
   h2 {
-    color:#fff !important;
+    color:#000000 !important;
     transition:color 0.6s;
   }
 
@@ -356,7 +356,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    font-size:12px;
+    font-size:16px;
     padding-top:10px;
     width:160px;
     margin-right:5px;
@@ -508,7 +508,7 @@
   margin:0;
   padding:0;
   padding-bottom:15px;
-  font-size:32px;
+  font-size:28px;
   color:#fff;
 }
 
@@ -517,7 +517,7 @@
   margin:0;
   padding:0;
   padding-bottom:15px;
-  font-size:32px;
+  font-size:28px;
   color:#fff;
 
   @media only screen and (max-width: 1000px) {
