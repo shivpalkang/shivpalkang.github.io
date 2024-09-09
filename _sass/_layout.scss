@@ -545,9 +545,9 @@
   height:100%;
   float: left;
   max-width:none;
-  @media only screen and (max-width: 1000px) {
-   direction:rtl;
-   overflow:hidden;
+  @media only screen and (max-width: 512px) {
+   position: relative;
+   left: -150px;
   }
 }
 
