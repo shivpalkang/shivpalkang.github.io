@@ -545,7 +545,10 @@
   height:100%;
   float: left;
   max-width:none;
-  direction: rtl;
+  @media only screen and (max-width: 1000px) {
+   direction:rtl;
+   overflow:hidden;
+  }
 }
 
 .background-image {
