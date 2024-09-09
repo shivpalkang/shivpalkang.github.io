@@ -291,6 +291,7 @@
  */
 .browse {
   font-size:14px;
+  float: left;
   margin-left:auto;
   margin-right:auto;
   text-align:left;
@@ -315,7 +316,7 @@
   display:inline-block;
   margin:0;
   padding:0;
-  float:right;
+  float:left;
   direction: rtl;
   vertical-align:middle;
   width:100%;
@@ -545,7 +546,7 @@
 .browse img {
   display:block;
   height:100%;
-  float: right;
+  float: left;
   max-width:none;
   direction: rtl;
 }
