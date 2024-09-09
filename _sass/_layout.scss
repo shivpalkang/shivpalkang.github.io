@@ -315,7 +315,7 @@
   display:inline-block;
   margin:0;
   padding:0;
-  float:left;
+  float:right;
   direction: rtl;
   vertical-align:middle;
   width:100%;
@@ -545,6 +545,7 @@
 .browse img {
   display:block;
   height:100%;
+  float: right;
   max-width:none;
   direction: rtl;
 }
