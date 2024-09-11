@@ -368,6 +368,42 @@
   }
 }
 
+.browse .browse-label {
+  display:inline-block;
+  margin:0;
+  padding:0;
+  position:absolute;
+  vertical-align:middle;
+  padding-top:60px;
+  margin-left:5%;
+  left:0;
+  top:0;
+  width:320px;
+  text-align:left;
+  font-size:16px;
+  color:#000000 !important; /* #fff */
+  opacity:0;
+  transition:opacity 0.6s;
+  transition:color 0.6s;
+ 
+  @media only screen and (max-width: 1000px) {
+    font-size:14px;
+    padding-top:20px;
+    width:240px;
+    color:#fff !important;
+    opacity:1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    font-size:12px;
+    padding-top:10px;
+    width:160px;
+    margin-right:5px;
+    color:#fff!important;
+    opacity:1;
+  }
+}
+
 .row:hover .browse-text {
   opacity:1.0;
   color:#fff !important; /* delete if don't want to change color on hover */
@@ -376,6 +412,10 @@
   }
 }
 
+.row:hover .browse-label {
+  opacity:1.0;
+  color:#fff !important; /* delete if don't want to change color on hover */
+}
 
 .browse .row-container {
   height:75vh;
