@@ -1,0 +1,62 @@
+:root {
+    --cover-border-radius: 0;
+    --ul-list-style-type: square;
+}
+:root {
+    
+    --bg-1: hsl(0 0% 90%);
+    --bg-1-90: hsl(0 0% 90% / 90%);
+    --bg-1-overlay: hsl(0 0% 90% / 80%);
+    --bg-2: hsl(0 0% 76.83%);
+    --bg-2-overlay: hsl(0 0% 76.83% / 80%);
+    --bg-3: hsl(0 0% 62.06%);
+    --bg-acc: hsl(0 0% 31.69%);
+    --bg-acc-overlay: hsl(0 0% 31.69% / 80%);
+    --bg-mg: hsl(0 0% 52%);
+    --fg-1: hsl(0 0% 0%);
+    --fg-1-focus: var(--fg-3);
+    --fg-1-veil: hsl(0 0% 0% / var(--veil-a));
+    --fg-2: hsl(0 0% 8.6%);
+    --fg-3: hsl(0 0% 28.06%);
+    --fg-3-focus: var(--bg-mg);
+    --fg-acc: hsl(0 0% 100%);
+    --fg-mg: hsl(0 0% 28%);
+    --mg: hsl(0 0% 38.86%);
+    --mg-acc: hsl(0 0% 31.69%);
+    --mg-acc-overlay: hsl(0 0% 31.69% / 80%);
+}
+
+@supports (color: oklch(0% 0% 0)) {
+    :root {
+    
+    --bg-1: oklch(21.56% 0% 0);
+    --bg-1-90: oklch(21.56% 0% 0 / 90%);
+    --bg-1-overlay: oklch(21.56% 0% 0 / 80%);
+    --bg-2: oklch(26% 0% 0);
+    --bg-2-overlay: oklch(26% 0% 0 / 80%);
+    --bg-3: oklch(32% 0% 0);
+    --bg-acc: oklch(40% 0% 0);
+    --bg-acc-overlay: oklch(40% 0% 0 / 80%);
+    --bg-mg: oklch(41% 0% 0);
+    --fg-1: oklch(100% 0% 0);
+    --fg-1-focus: var(--fg-3);
+    --fg-1-veil: oklch(100% 0% 0 / 2%);
+    --fg-2: oklch(86% 0% 0);
+    --fg-3: oklch(72% 0% 0);
+    --fg-3-focus: var(--fg-1);
+    --fg-acc: oklch(100% 0% 0);
+    --fg-mg: oklch(61% 0% 0);
+    --mg: oklch(50% 0% 0);
+    --mg-acc: oklch(54% 0% 0);
+    --mg-acc-overlay: oklch(54% 0% 0 / 80%);
+}
+
+}
+@font-face {
+    font-display: fallback;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Barlow'), url('barlow-v12-latin-regular.woff2') format('woff2');
+}
+body, button, input { font-family: 'Barlow', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
