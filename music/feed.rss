@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <atom:link href="https://shivpal.in/music/feed.rss" rel="self" type="application/rss+xml"/>
+        <description>Faircamp 1.1.1</description>
+        
+        <language>en</language>
+        <lastBuildDate>Fri, 17 Jan 2025 11:51:26 +0000</lastBuildDate>
+        <link>https://shivpal.in/music/</link>
+        <title>Shivpal Singh Kang</title>
+        
+        <item>
+    <description>An elevator ride across time space and genre</description>
+    <guid>https://shivpal.in/music/elevator-music/</guid>
+    <link>https://shivpal.in/music/elevator-music/</link>
+    <title> – Elevator Music</title>
+</item>
+<item>
+    <description>A song from the animated short-film Chandraheen(2023)</description>
+    <guid>https://shivpal.in/music/chor-bazaar/</guid>
+    <link>https://shivpal.in/music/chor-bazaar/</link>
+    <title> – Chor Bazaar</title>
+</item>
+<item>
+    <description>A song about struggle and determination</description>
+    <guid>https://shivpal.in/music/gaanand/</guid>
+    <link>https://shivpal.in/music/gaanand/</link>
+    <title> – Ganand Mein Aandhi</title>
+</item>
+    </channel>
+</rss>
